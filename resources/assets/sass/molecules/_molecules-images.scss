@@ -1,0 +1,49 @@
+/*
+|--------------------------------------------------------------------------
+| Images
+|--------------------------------------------------------------------------
+*/
+%image-big {
+	width: $atom-imageBig;
+	height: auto;
+}
+
+%image-medium {
+	width: $atom-imageMedium;
+	height: auto;
+}
+
+%image-small {
+	width: $atom-imageSmall;
+	height: auto;
+}
+
+%image-verySmall {
+	width: $atom-imageVery-small;
+	height: auto;
+}
+
+%image-full {
+	width: $atom-imageFullScreen;
+	height: auto;
+}
+
+.moleculeImage-small {
+	@extend	%image-small;
+}
+
+.moleculeImage-verySmall {
+	@extend	%image-verySmall;
+}
+
+.moleculeImage-medium {
+	@extend	%image-medium;
+}
+
+.moleculeImage-big {
+	@extend	%image-big;
+}
+
+.moleculeImage-full {
+	@extend	%image-full;
+}

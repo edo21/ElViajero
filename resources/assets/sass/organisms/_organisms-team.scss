@@ -1,0 +1,66 @@
+.organisms-team-style1 {
+	.image-person {
+		height: 300px;
+	}
+
+	.image-person-circle {
+		height: 200px;
+		width: 200px;
+		border-radius: 50%;
+		text-align: center;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.social-media {
+		margin-top: 15px;
+		img {
+			width: 20px;
+			margin-right: 5px;	
+		}
+	}
+
+	.person {
+		margin-bottom: 30px;
+	}
+
+	.person-shadow {
+		box-shadow: 10px 0 10px -10px rgba(219, 219, 219, 0.8), -10px 0 10px -10px rgba(219, 219, 219, 0.8);
+		@media screen and (max-width: 480px) {
+			box-shadow: none;
+			border: none;
+		}
+	}
+
+	.information {
+		padding: 30px 15px;
+	}
+}
+
+.organisms-team-style2 {
+	.image-person {
+		height: 400px;
+		background-color: rgba(0,0,0,0.3);
+		background-blend-mode: multiply;
+		position: relative;
+	}
+	
+	.content-bottom {
+		position: absolute;
+		bottom: 0;
+		left: 0;
+		width: 100%;
+		padding: 10px 15px;
+		.social-media {
+			float: right;
+			display: inline-block;
+			img {
+				width: 30px;	
+			}
+		}
+
+		.market-stall {
+			display: inline-block;
+		}
+	}
+}

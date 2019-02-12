@@ -1,0 +1,551 @@
+/*
+|--------------------------------------------------------------------------
+| Extend background
+|--------------------------------------------------------------------------
+*/
+
+%background-primary {
+	background-color: $atom-backgroundPrimary;
+}
+
+%background-secundary {
+	background-color: $atom-backgroundSecundary;
+}
+
+%background-third {
+	background-color: $atom-backgroundThird;
+}
+
+%background-fourth {
+	background-color: $atom-backgroundFourth;
+}
+
+%background-fifth {
+	background-color: $atom-backgroundFifth;
+}
+
+%background-gray {
+	background-color: $atom-backgroundGray;
+}
+
+%background-black {
+	background-image: linear-gradient(rgba(0,0,0,0.3) 0%,rgba(0,0,0,.5) 75%,rgba(0,0,0,.7) 100%);
+}
+
+%background-blackMask {
+	background-image: linear-gradient(rgba(0,0,0,0.2) 0%, rgba(0,0,0,0.5) 75%, rgba(0,0,0,0.8) 100%);
+
+}
+
+%background-white {
+	background-color: $atom-colorWhite;
+}
+
+%background-opacity1 {
+	opacity: 0.9;
+}
+
+%background-opacity2 {
+	opacity: 0.9;
+}
+
+%background-image {
+	background-image: $atom-backgroundImage;
+}
+
+/*
+|--------------------------------------------------------------------------
+| Extend color
+|--------------------------------------------------------------------------
+*/
+%color-WB {
+	color: $atom-colorWhiteandBlack;
+}
+
+%color-primary2 {
+	color: $atom-colorWhiteandBlack;
+}
+
+%color-primary {
+	color: $atom-colorPrimary;
+}
+
+%color-secundary {
+	color: $atom-colorSecundary;
+}
+
+%color-third {
+	color: $atom-colorThird;
+}
+
+%color-fourth {
+	color:$atom-colorFourth;
+}
+
+%color-colorWhite {
+	color: $atom-colorWhite;
+}
+
+%color-colorWhite-opacity1 {
+	color: rgba($atom-colorWhite, .8);
+}
+
+%color-colorGray {
+	color: $atom-colorGray;
+}
+
+%color-colorGraylight {
+	color: $atom-colorGraylight;
+}
+
+%color-colorGrayligther {
+	color: $atom-colorGrayligther;
+}
+
+%color-colorBlack {
+	color: $atom-colorBlack;
+}
+
+/*
+|--------------------------------------------------------------------------
+| Extend Borders
+|--------------------------------------------------------------------------
+*/
+
+%border-solidThin {
+	border: $atom-borderSolid-thin;
+}
+
+%border-solidNone {
+	border: $atom-borderSolid-none;
+}
+
+%border-colorWhite {
+	border-color: $atom-colorWhite;
+}
+
+%border-colorWhite-opacity {
+	border-color: rgba($atom-colorWhite, 0.6);
+}
+
+%border-colorPrimary {
+	border-color: $atom-colorPrimary;
+}
+
+%border-colorSecundary {
+	border-color: $atom-colorSecundary;
+}
+
+%border-colorThird {
+	border-color: $atom-colorThird;
+}
+
+%border-colorGray {
+	border-color: $atom-colorGray;
+}
+
+%border-colorGray-light {
+	border-color: $atom-colorGraylight;
+}
+
+%border-colorGray-ligther {
+	border-color: $atom-colorGrayligther;
+}
+
+/*
+|--------------------------------------------------------------------------
+| Extend Shadows
+|--------------------------------------------------------------------------
+*/
+
+%boxShadow-primary {
+	box-shadow: $atom-boxShadow-primary;
+}
+
+%boxShadow-secundary {
+	box-shadow: $atom-boxShadow-secundary;
+}
+
+%boxShadow-third {
+	box-shadow: $atom-boxShadow-third;
+}
+
+%textShadow-primary {
+	text-shadow: $atom-textShadow-primary;
+}
+
+/*
+|--------------------------------------------------------------------------
+| Extend Content height
+|--------------------------------------------------------------------------
+*/
+%contentHeight-big {
+	height: $atom-height-big;
+	width: 100%;
+}
+
+%contentHeight-medium {
+	height: $atom-height-medium;
+	width: 100%;
+}
+
+%contentHeight-small {
+	height: $atom-height-small;
+	width: 100%;
+
+}
+
+%contentHeight-verySmall {
+	height: $atom-height-medium;
+	width: 100%;
+}
+/*
+|--------------------------------------------------------------------------
+| Extend icon height
+|--------------------------------------------------------------------------
+*/
+
+%iconSize-big {
+	width: $atom-iconBig;
+}
+
+%iconSize-medium {
+	width: $atom-iconMedium;
+}
+
+%iconSize-small {
+	width: $atom-iconSmall;
+}
+
+%iconSize-verySmall {
+	width: $atom-iconVery-small;
+}
+
+%iconSize-autoHeight {
+	height: auto;
+}
+
+/*
+|--------------------------------------------------------------------------
+| Extend Position
+|--------------------------------------------------------------------------
+*/
+%position-absoluteFull-Topleft {
+	position: absolute;
+	top: 0;
+	left:0;
+	width: 100%;
+	height: 100%;
+}
+
+/*
+|--------------------------------------------------------------------------
+| Styles
+|--------------------------------------------------------------------------
+*/
+
+body {
+	margin: 0;
+}
+
+h1 {
+	font-size: $atom-fontSize-h-1;
+}
+
+h2 {
+	font-size: $atom-fontSize-h-2;
+}
+
+h3 {
+	font-size: $atom-fontSize-h-3;
+}
+
+h1,h2,h3,h4,h5,h6 {
+	margin: 0;
+}
+
+ul {
+	margin: 0;
+	padding-left: 0;
+	list-style: none;
+}
+a:hover {
+	text-decoration: none;
+}
+.atomDropdown-movil {
+    display: none;
+}
+
+.atomList-style1 {
+	list-style: square;
+	color: $atom-backgroundThird;
+	padding-left: 15px;
+	li {
+		margin-top: 3px;
+		&:nth-child(1) {
+			margin-top: 5px;
+		}
+	}
+}
+
+.padding-header-height {
+	padding: 0 100px;
+}
+
+p {
+	margin: 0;
+}
+
+.list-inline {
+	margin-left: 0;
+	li {
+		display: inline-block;
+	}
+}
+
+.container-nav-float {
+	margin-top: 100px;
+}
+.atomDisplay-noneMovil {
+	@media screen and (max-width: 480px) {
+		display: none!important;
+	}
+}
+/*
+|--------------------------------------------------------------------------
+| atomos modificador background
+|--------------------------------------------------------------------------
+*/
+
+.atomBackground-primary {
+	@extend %background-primary;
+}
+
+.atomBackground-secundary {
+	@extend %background-secundary;
+}
+
+.atomBackground-third {
+	@extend %background-third;
+}
+
+.atomBackground-fourth {
+	@extend %background-fourth;
+}
+
+.atomBackground-fifth {
+	@extend %background-fifth;
+}
+
+.atomBackground-gray {
+	@extend %background-gray;
+}
+
+.atomBackground-white {
+	@extend %background-white;
+}
+
+.atomBackground-black {
+	@extend %background-black;
+}
+
+.atomBackground-white-opacity1 {
+	@extend %background-white;
+	@extend %background-opacity1;
+}
+
+.atomBackground-black-opacity1 {
+	@extend %background-black;
+	@extend %background-opacity1;
+}
+
+.atomBackground-maskfull1 {
+	@extend %background-blackMask;
+	@extend %position-absoluteFull-Topleft;
+	z-index: 1;
+}
+
+.atomBackground-maskfull2 {
+	@extend %background-blackMask;
+	@extend %position-absoluteFull-Topleft;
+	z-index: 1;
+}
+
+.atomBackground-image {
+	@extend %background-image;
+}
+
+.atomBackground-blendMode {
+	background-blend-mode: multiply;
+}
+
+.atomBackground-transparent {
+	background: transparent;
+}
+/*
+|--------------------------------------------------------------------------
+| atomos modificador color
+|--------------------------------------------------------------------------
+*/
+
+.atomColor-primary {
+	@extend %color-primary;
+}
+
+.atomColor-secundary {
+	@extend %color-secundary;
+}
+
+.atomColor-third {
+	@extend %color-third;
+}
+
+.atomColor-fourth {
+	@extend %color-fourth;
+}
+
+.atomColor-white {
+	@extend %color-colorWhite;
+}
+
+.atomColor-gray {
+	@extend %color-colorGray;
+}
+
+.atomColor-whiteOpacity1 {
+	@extend %color-colorWhite-opacity1;
+}
+
+.atomColor-grayLight {
+	@extend %color-colorGraylight;
+}
+
+.atomColor-grayLigther {
+	@extend %color-colorGrayligther;
+}
+
+.atomColor-black {
+	@extend %color-colorBlack;
+}
+
+.atomColor-WB {
+	@extend %color-WB;
+}
+/*
+|--------------------------------------------------------------------------
+| atomos modificador border
+|--------------------------------------------------------------------------
+*/
+.atomBorder-solidThin {
+	@extend %border-solidThin;
+}
+
+.atomBorder-solidNone {
+	@extend %border-solidNone;
+}
+
+.atomBorder-colorWhite-opacity {
+	@extend %border-colorWhite-opacity;
+}
+
+.atomBorder-colorWhite {
+	@extend %border-colorWhite;
+}
+
+.atomBorder-colorGray {
+	@extend %border-colorGray;
+}
+
+.atomBorder-colorGray-light {
+	@extend %border-colorGray-light;
+}
+
+.atomBorder-colorGray-ligther {
+	@extend %border-colorGray-ligther;
+}
+
+.atomBorder-colorPrimary {
+	@extend %border-colorPrimary;
+}
+
+.atomBorder-colorSecundary {
+	@extend %border-colorSecundary;
+}
+
+.atomBorder-colorThird {
+	@extend %border-colorThird;
+}
+
+/*
+|--------------------------------------------------------------------------
+| atomos modificador height content
+|--------------------------------------------------------------------------
+*/
+
+.atomContent-heightFull-page {
+	width: 100%;
+	height: 100vh;
+}
+
+.atomContent-heightBig {
+	@extend %contentHeight-big;
+}
+
+.atomContent-heightMedium {
+	@extend %contentHeight-medium;
+}
+
+.atomContent-heightSmall {
+	@extend %contentHeight-small;
+}
+
+.atomContent-height-verySmall {
+	@extend %contentHeight-verySmall;
+}
+
+/*
+|--------------------------------------------------------------------------
+| atomos modificador iconos
+|--------------------------------------------------------------------------
+*/
+
+.atomIcon-widthBig {
+	@extend %iconSize-big;
+	@extend %iconSize-autoHeight;
+}
+
+.atomIcon-widthMedium {
+	@extend %iconSize-medium;
+	@extend %iconSize-autoHeight;
+}
+
+.atomIcon-widthSmall {
+	@extend %iconSize-small;
+	@extend %iconSize-autoHeight;
+}
+
+.atomIcon-width-verySmall {
+	@extend %iconSize-verySmall;
+	@extend %iconSize-autoHeight;
+}
+/*
+|--------------------------------------------------------------------------
+| atomos modificador border
+|--------------------------------------------------------------------------
+*/
+
+.atomBox-shadowPrimary {
+ @extend %boxShadow-primary;
+}
+
+.atomBox-shadowSecundary {
+ @extend %boxShadow-secundary;
+}
+
+.atomBox-shadowthird {
+ @extend %boxShadow-third;
+}
+
+.atomShadow-text-primary {
+ @extend %textShadow-primary;	
+}

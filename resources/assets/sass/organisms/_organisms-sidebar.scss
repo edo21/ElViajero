@@ -1,0 +1,81 @@
+.organisms-sidebarStyle1 {
+	padding: 15px 20px;
+	h3 {
+		margin: 20px 0px;
+	}
+	
+	.container-sidebar{
+		img {
+			width: 100%;
+		}
+
+	}
+
+	.container-text {
+		padding: 10px;
+		margin-bottom: 30px;
+	}
+}
+
+.organisms-sidebarStyle2 {
+	padding: 15px 20px;
+	h3 {
+		margin: 20px 0px;
+	}
+
+	.container-sidebar {
+		margin: 25px 0px;
+		img {
+			width: 50%;
+			vertical-align: top;
+		}
+
+		.container-text {
+			display: inline-block;
+			width: 46%;
+			margin-left: 10px;
+			h5 {
+				font-size: 20px;
+			}
+		}
+	}
+}
+
+.organisms-sidebarStyle3 {
+	.container-sidebar {
+		img {
+			width: 40px;
+			margin: 15px 10px;
+		}
+
+		p {
+		  display: inline-block;
+		}
+
+	}
+}
+
+.organisms-sidebarStyle4 {
+	padding: 15px 20px;
+	h3 {
+		padding: 20px;
+	}
+
+	img {
+		display: inline-block;
+		width: 32%;
+		padding-bottom: 4px;
+	}
+}
+
+.line-sidebar {
+	border-top: 1px solid;
+	margin: 20px;
+}
+
+.image-buttom {
+	img{
+		width: 100%;
+		margin-top: 10px;
+	}
+}

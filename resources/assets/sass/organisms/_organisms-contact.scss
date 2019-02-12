@@ -1,0 +1,28 @@
+.organisms-contact-style1 {
+	.card-contactanos {
+		position: absolute;
+		right: 100px;
+		@media screen and (max-width: $atom-screen-xs-min) {
+			position: relative;
+			right: auto;
+			padding: 40px;
+		}
+		.title {
+			font-family: $atom-typoThird;
+			color: rgba(0,0,0,.7);
+			display: block;
+			margin-bottom: 15px;
+		}
+		.contact {
+			margin-bottom: 10px;
+			.icon {
+				width: 20px;
+				display: inline-block;
+				margin-right: 10px;
+			}
+			.text {
+				display: inline-block;
+			}
+		}
+	}
+}

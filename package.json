@@ -1,0 +1,44 @@
+{
+  "name": "cryptowave",
+  "version": "1.0.0",
+  "description": "This README would normally document whatever steps are necessary to get your application up and running.",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "bootstrap": "^4.0.0",
+    "browserify": "^16.1.0",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^4.1.0",
+    "gulp-browserify": "^0.5.1",
+    "gulp-error-handle": "^1.0.0",
+    "gulp-jshint": "^2.1.0",
+    "gulp-rename": "^1.4.0",
+    "gulp-sass": "^3.2.1",
+    "gulp-uglify": "^3.0.1",
+    "gulp-util": "^3.0.8",
+    "jshint": "^2.9.5",
+    "jshint-stylish": "^2.2.1",
+    "minimatch": "^3.0.4",
+    "node-sass": "^4.10.0",
+    "vinyl-source-stream": "^2.0.0",
+    "watch": "^1.0.2"
+  },
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "bootstrap-sass": "^3.3.7",
+    "default": "^0.1.1",
+    "gulp-dependency-install": "0.0.8",
+    "init": "^0.1.2",
+    "jquery": "^3.3.1",
+    "uniq": "^1.0.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://Yussel@bitbucket.org/noosbit/cryptowave.git"
+  },
+  "homepage": "https://bitbucket.org/noosbit/cryptowave#readme"
+}

@@ -1,0 +1,145 @@
+.organisms-modalTravel {
+	.modal-dialog {
+		max-width: 60%;
+		@media screen and (max-width: $atom-screen-xs-min) {
+			max-width: 100%;
+			height: 100%;
+		}
+		.modal-content {
+			height: 581px;
+			@media screen and (max-width: $atom-screen-xs-min) {
+				height: calc(100% - 15px);
+				overflow: hidden;
+			}
+			.modal-body {
+				padding: 30px 15px;
+				@media screen and (max-width: $atom-screen-xs-min) {
+					padding: 15px;
+				}
+				.close {
+					position: absolute;
+					right: 20px;
+					top: 15px;
+					z-index: 1;
+					opacity: 1;
+					.icon {
+						width: 15px;
+					}
+				}
+				.card-travel {
+					margin: 20px 0;
+					padding: 10px 0;
+					box-shadow: 0 1px 4px 0 rgba(0,0,0,0.10);
+					.image {
+						height: 90px;
+						margin: -10px 0;
+					}
+
+					.title-travel {
+						margin-top: 10px;
+					}
+
+					&:hover {
+						background: #f5f5f5;
+					}			
+				}
+			}
+		}
+		.carousel {
+			width: 100%;
+			.carousel-inner {
+				height: 480px;
+				margin-top: 10px;
+				border-top: 0.2px solid rgba($atom-colorPrimary, 0.1);
+				@media screen and (max-width: $atom-screen-sm-min) {
+					height: 400px;
+					overflow-y: scroll;
+				}
+				@media screen and (max-width: $atom-screen-xs-min) {
+					height: 315px;
+				}
+			}
+			.title {
+				margin-bottom: 20px;
+				margin-right: 20px;
+				display: inline-block;
+				border-right: 1px solid $atom-colorPrimary;
+				padding-right: 20px;
+				@media screen and (max-width: $atom-screen-sm-min) {
+					display: inline-block;
+					border-right: none;
+				}
+			}
+			.content-typeTravel {
+				@media screen and (max-width: $atom-screen-xs-min) {
+					padding: 0;
+				}
+				.carousel-indicators {
+					position: relative;
+					margin-left: 0;
+					margin-right: 0;
+					bottom: auto;
+					justify-content: inherit;
+					display: inline-block;
+					.typeTravel {
+						margin: 0 10px;
+						display: inline-block;
+						padding-bottom: 0px;
+						transition: padding-bottom 0.5s;
+						p {
+							cursor: pointer;
+							&:hover {
+								color: black;
+							}
+						}
+						@media screen and (max-width: $atom-screen-sm-min) {
+							margin-bottom: 10px;
+							padding: 5px 10px;
+
+						}
+						@media screen and (max-width: $atom-screen-xs-min) {
+							margin-bottom: 5px;
+							margin: 0px;
+						}
+					}
+					.active {
+						border-bottom: solid 2px $atom-colorPrimary;
+						padding-bottom: 4px;
+						transition: padding-bottom 0.5s;
+						@media screen and (max-width: $atom-screen-sm-min) {
+							border-bottom: none;
+							background: rgba($atom-colorPrimary, 0.3);
+							border-radius: 3px;
+							padding-bottom: 5px;
+						}
+					}
+				}
+			}	
+		}
+	}
+}
+.carousel-fade .carousel-item {
+ opacity: 0;
+ transition-duration: .6s;
+ transition-property: opacity;
+}
+
+.carousel-fade  .carousel-item.active,
+.carousel-fade  .carousel-item-next.carousel-item-left,
+.carousel-fade  .carousel-item-prev.carousel-item-right {
+  opacity: 1;
+}
+
+.carousel-fade .active.carousel-item-left,
+.carousel-fade  .active.carousel-item-right {
+ opacity: 0;
+}
+
+.carousel-fade  .carousel-item-next,
+.carousel-fade .carousel-item-prev,
+.carousel-fade .carousel-item.active,
+.carousel-fade .active.carousel-item-left,
+.carousel-fade  .active.carousel-item-prev {
+ transform: translateX(0);
+ transform: translate3d(0, 0, 0);
+}

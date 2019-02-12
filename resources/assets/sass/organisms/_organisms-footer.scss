@@ -1,0 +1,26 @@
+.organisms-footer-style5 {
+	padding: 35px 0;
+	.logo {
+		height: 65px;
+	}
+	.sections {
+		margin-top: 10px;
+		li {
+			margin: 0 5px;
+			&:nth-child(1) {
+				margin-left: 0;
+			}
+		}
+		@media screen and (max-width: $atom-screen-sm-min) {
+			text-align: center;
+			margin-bottom: 30px;
+		}
+	}
+	.copyright {
+		margin-top: 10px;
+		@media screen and (max-width: $atom-screen-sm-min) {
+			text-align: center;
+			margin-top: 30px;
+		}
+	}
+}

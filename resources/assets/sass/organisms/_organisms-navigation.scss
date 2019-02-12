@@ -1,0 +1,113 @@
+.organisms-navigation-style1 {
+	position: fixed;
+	width: 100%;
+	left: 0;
+	top: 0;
+	z-index: 3;
+	.calendar-btn-movil {
+		background: #7fbbce;
+		padding: 5px 20px;
+		border-radius: 5px;
+		display: none;
+		margin-left: 30px;
+		width: 116px;
+		font-size: 14px;
+		color: #314554!important;
+		@media screen and (max-width: $atom-screen-xs-min) {
+			display: inline-block;
+		}
+	}
+	>.container-fluid {
+		padding: 20px 50px;
+		@media screen and (max-width: $atom-screen-xs-min) {
+			padding: 20px;
+		}
+		.form {
+			.btn {
+				margin-left: 15px;
+			}
+			.input {
+				&:nth-child(1) {
+					margin-right: 10px;
+				}
+			}
+		}
+		.logo {
+			width: 60px;
+			@media screen and (max-width: 480px) {
+				width: 50px;
+			}
+		}
+	}
+	ul {
+		li {
+			margin: 0 10px;
+			a {
+				&:hover {
+					color: white;
+				}
+			}
+			.calendar-btn {
+				background: #7fbbce;
+				padding: 5px 20px;
+				border-radius: 5px;
+				@media screen and (max-width: $atom-screen-xs-min) {
+					display: none;
+				}
+			}
+		}
+	}
+	@media screen and (max-width: 480px) {
+		ul {
+			display: none;
+		}
+	}
+	.dropdown-toggle::before {
+		display: none;
+	}
+	.dropdown-menu {
+		@media screen and (max-width: $atom-screen-xs-min) {
+			top: 50px!important;
+			right: 0;
+			left: auto!important;
+			transform: inherit!important;
+			box-shadow: 0 1px 8px rgba(0,0,0,0.3);
+			padding: 20px 15px!important;
+			li {
+				margin-bottom: 10px;
+				&:last-child {
+					margin-bottom: 0;
+				}
+				a {
+					padding: 0;
+				}
+			}
+		}
+	}
+	.organisms-navigation-menu {
+		@media screen and (max-width: $atom-screen-xs-min) {
+			margin-top: 12px;
+		}
+	}
+}
+
+.organisms-navigation-style1-active {
+	box-shadow: 0 1px 8px rgba(0,0,0,.3);
+	.container-fluid {
+		padding: 10px 50px;
+		@media screen and (max-width: $atom-screen-xs-min) {
+			padding: 10px 20px;
+		}
+		.logo {
+			width: 30px;
+		}
+		ul {
+			padding-top: 4px;
+		}
+	}
+	.organisms-navigation-menu {
+		@media screen and (max-width: $atom-screen-xs-min) {
+			margin-top: 3px;
+		}
+	}
+}

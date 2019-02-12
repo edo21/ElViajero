@@ -1,0 +1,80 @@
+/*
+|--------------------------------------------------------------------------
+| typographys
+|--------------------------------------------------------------------------
+*/
+	/*
+	|--------------------------------------------------------------------------
+	| src typographys
+	|--------------------------------------------------------------------------
+	*/
+		@font-face {
+		  font-family: 'roboto-black';
+		  src: url('../fonts/roboto/Roboto-Black.ttf') format('truetype');
+		}
+		@font-face {
+		  font-family: 'roboto-bold';
+		  src: url('../fonts/roboto/Roboto-Bold.ttf') format('truetype');
+		}
+		@font-face {
+		  font-family: 'roboto-medium';
+		  src: url('../fonts/roboto/Roboto-Medium.ttf') format('truetype');
+		}
+		@font-face {
+		  font-family: 'roboto-regular';
+		  src: url('../fonts/roboto/Roboto-Regular.ttf') format('truetype');
+		}
+		@font-face {
+		  font-family: 'roboto-light';
+		  src: url('../fonts/roboto/Roboto-Light.ttf') format('truetype');
+		}
+		@font-face {
+		  font-family: 'roboto-thin';
+		  src: url('../fonts/roboto/Roboto-Thin.ttf') format('truetype');
+		}
+		@font-face {
+		  font-family: 'raleway-black';
+		  src: url('../fonts/raleway/Raleway-Black.ttf') format('truetype');
+		}
+		@font-face {
+		  font-family: 'raleway-bold';
+		  src: url('../fonts/raleway/Raleway-Bold.ttf') format('truetype');
+		}
+		@font-face {
+		  font-family: 'raleway-semiBold';
+		  src: url('../fonts/raleway/Raleway-SemiBold.ttf') format('truetype');
+		}
+		@font-face {
+		  font-family: 'raleway-medium';
+		  src: url('../fonts/raleway/Raleway-Medium.ttf') format('truetype');
+		}
+		@font-face {
+		  font-family: 'raleway-regular';
+		  src: url('../fonts/raleway/Raleway-Regular.ttf') format('truetype');
+		}
+		@font-face {
+		  font-family: 'raleway-light';
+		  src: url('../fonts/raleway/Raleway-Light.ttf') format('truetype');
+		}
+		@font-face {
+		  font-family: 'delius';
+		  src: url('../fonts/delius/delius.ttf') format('truetype');
+		}
+	/*
+	|--------------------------------------------------------------------------
+	| variables typographys
+	|--------------------------------------------------------------------------
+	*/
+	$atom-typographyPrimary:				'roboto-regular';
+	$atom-typoPrimary-black:				'roboto-black';
+	$atom-typoPrimary-bold:	 				'roboto-bold';
+	$atom-typoPrimary-medium:				'roboto-medium';
+	$atom-typoPrimary-light:				'roboto-light';
+	$atom-typoPrimary-thin:					'roboto-thin';
+	$atom-typographySecundary:				'raleway-regular';
+	$atom-typoSecundary-black:				'raleway-black';
+	$atom-typoSecundary-bold:	 			'raleway-bold';
+	$atom-typoSecundary-semiBold:			'raleway-semiBold';
+	$atom-typoSecundary-medium:				'raleway-medium';
+	$atom-typoSecundary-light:				'raleway-light';
+	$atom-typoThird:						'delius';

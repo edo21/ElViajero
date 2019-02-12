@@ -1,0 +1,135 @@
+.organisms-product-style1 {
+	.product {
+		margin-bottom: 30px;
+		.image-product {
+			height: 300px;
+			position: relative;
+			overflow: hidden;
+			.label {
+				position: absolute;
+				width: 150px;
+				text-align: center;
+				color: white;
+				font-size: 16px;
+				right: -40px;
+				top: 11px;
+				transform: rotate(43deg);
+				p {
+					margin: 0;
+					padding: 5px 0;
+				}
+			}
+
+			.promotion {
+				width: 70px;
+				height: 70px;
+				text-align: center;
+				border-radius: 50%;
+				padding-top: 25px;
+			}
+		}
+
+		.text {
+			padding: 20px 15px;
+		}
+		
+		.price {
+			display: inline-block;
+			margin-bottom: 0;
+		}
+
+		.price-previous {
+			margin-left: 20px;
+			opacity: 0.5;
+			text-decoration: line-through;
+		}
+
+		.quantity {
+			.text, input {
+				display: inline-block;
+			}
+			input {
+				width: 100px;
+			}
+		}
+
+		.btn {
+			margin-top: 20px;
+		}
+	}
+	.product-single {
+		.information-product {
+			padding: 50px 30px;
+			.content-price {
+				margin-top: 5px;
+			}
+		}
+		.section-information {
+			margin-top: 30px;
+			.title {
+				margin-bottom: 10px;
+			}
+			.product-type {
+				.product-imageType {
+					width: 100px;
+					height: auto;
+				}
+			}
+		}
+	}
+}
+.organisms-product-style2 {
+	.product {
+		margin-bottom: 30px;
+		.image-product {
+			background-color: rgba($atom-colorBlack, 0.7);
+			height: 300px;
+			padding: 20px;
+			position: relative;
+
+			.label {
+				position: absolute;
+				text-align: center;
+				color: white;
+				font-size: 16px;
+				right: 10px;
+				top: 10px;
+				p {
+					margin: 0;
+					padding: 5px 20px;
+				}
+			}
+
+			.promotion {
+				width: 70px;
+				height: 70px;
+				text-align: center;
+				border-radius: 50%;
+				padding-top: 22px;
+				position: absolute;
+				bottom: 30px;
+				right: 30px;
+			}
+
+			.text {
+				position: absolute;
+				bottom: 30px;
+			}
+
+			.price {
+				display: inline-block;
+				margin-bottom: 0;
+			}
+
+			.price-previous {
+				margin-left: 20px;
+				opacity: 0.5;
+				text-decoration: line-through;
+			}
+
+			.btn {
+				margin-top: 10px;
+			}
+		}
+	}
+}

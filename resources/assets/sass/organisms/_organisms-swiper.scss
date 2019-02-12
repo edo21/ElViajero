@@ -1,0 +1,32 @@
+.swiper-pagination {
+  bottom: 25px;
+
+  span {
+    background-color: $atom-colorGray;
+    border: none;
+    border-radius: 0;
+    height: 8px;
+    width: 35px;
+
+    &.swiper-pagination-bullet-active {
+      background-color: red;
+    }
+  }
+}
+.swiper {
+  .image {
+    height: 300px;
+  }
+  .swiper-wrapper {
+    .swiper-slide {
+      padding: 10px;
+      background: #F5F5F5;
+    }
+  }
+}
+.modal-swiper {
+  .modal-content {
+  }
+  
+}
+

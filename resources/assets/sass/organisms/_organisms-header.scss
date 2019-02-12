@@ -1,0 +1,22 @@
+.organisms-Fullheader-text {
+	padding-top: 80px;
+	padding-bottom: 80px;
+	@media screen and (max-width: 480px) {
+		padding-top: 40px;
+		padding-bottom: 40px;		
+	}
+	.title {
+		.icon {
+			width: 25px;
+    		vertical-align: baseline;
+    	}	
+	}
+	p {
+		margin-top: 10px;
+	}
+	.row {
+		.image{
+			height: 250px;
+		}
+	}
+}

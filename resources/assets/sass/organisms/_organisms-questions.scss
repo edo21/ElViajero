@@ -1,0 +1,22 @@
+.organism-questions-style1 {
+	.title {
+		font-family: $atom-typoThird;
+		color: rgba(0,0,0,.7);
+		display: block;
+		margin-bottom: 50px;
+		text-align: center;		
+	}
+	.card-questionContent {
+		margin-bottom: 30px;
+
+		.card-question {
+			border-top: solid 2px #009045;
+			padding: 20px 15px;
+			box-shadow: 0 1px 4px 0 rgba(0,0,0,0.1);
+			height: 100%;
+			.question {
+				margin-bottom: 5px;
+			}
+		}		
+	}
+}

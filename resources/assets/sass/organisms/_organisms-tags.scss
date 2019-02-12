@@ -1,0 +1,57 @@
+.organisms-tags-style1 {
+	.title {
+		margin-bottom: 15px;
+	}
+	.tag {
+		display: inline-block;
+		margin-right: 5px;
+		margin-bottom: 10px;
+		&:hover {
+			background: rgba($atom-backgroundThird, 0.7);
+			color: $atom-colorWhite;
+			text-decoration: none;
+		}
+	}
+	.active {
+		background: $atom-backgroundThird;
+		color: $atom-colorWhite;
+	}
+}
+
+.organisms-tags-style2 {
+	padding: 30px 0;
+	.title {
+		margin-bottom: 15px;
+	}
+	.tag {
+		display: inline-block;
+		margin-right: 5px;
+		margin-bottom: 10px;
+		&:hover {
+			background: rgba($atom-backgroundThird, 0.7);
+			color: $atom-colorWhite;
+			text-decoration: none;
+			border-color: rgba($atom-backgroundThird, 0.7);
+			.icon {
+				display: none;
+			}
+			.active-icon {
+				display: inline-block;
+			}
+		}
+		.active-icon {
+			display: none;
+		}
+	}
+	.active {
+		background: $atom-backgroundThird;
+		color: $atom-colorWhite;
+		border-color: $atom-backgroundThird;
+		.icon {
+			display: none;
+		}
+		.active-icon {
+			display: inline-block;
+		}
+	}
+}

@@ -1,0 +1,128 @@
+/*
+|--------------------------------------------------------------------------
+| Titles
+|--------------------------------------------------------------------------
+*/
+%title-big {
+	letter-spacing: 1px;
+}
+
+%title-median {
+	letter-spacing: 0.7px;
+}
+
+%title-small {
+	letter-spacing: 0.5px;
+}
+
+%title-regular {
+	font-family: $atom-typographyPrimary;
+}
+
+%title-black {
+	font-family: $atom-typoPrimary-black;
+}
+
+%title-bold {
+	font-family: $atom-typoPrimary-bold;
+}
+
+%title-medium {
+	font-family: $atom-typoPrimary-medium;
+}
+
+%title-light {
+	font-family: $atom-typoPrimary-light;
+}
+
+%title-thin {
+	font-family: $atom-typoPrimary-thin;
+}
+
+.moleculeTitle-regular-big {
+	@extend %title-big;
+	@extend	%title-regular;
+}
+
+.moleculeTitle-black-big {
+	@extend %title-big;
+	@extend	%title-black;
+}
+
+.moleculeTitle-bold-big {
+	@extend %title-big;
+	@extend	%title-bold;
+}
+
+.moleculeTitle-light-big {
+	@extend %title-big;
+	@extend	%title-light;
+}
+
+.moleculeTitle-thin-big {
+	@extend %title-big;
+	@extend	%title-thin;
+}
+
+.moleculeTitle-medium-big {
+	@extend %title-big;
+	@extend	%title-medium;
+}
+
+.moleculeTitle-regular-medium {
+	@extend %title-median;
+	@extend	%title-regular;
+}
+.moleculeTitle-black-medium {
+	@extend %title-median;
+	@extend	%title-black;
+}
+
+.moleculeTitle-bold-medium {
+	@extend %title-median;
+	@extend	%title-bold;
+}
+
+.moleculeTitle-light-medium {
+	@extend %title-median;
+	@extend	%title-light;
+}
+
+.moleculeTitle-thin-medium {
+	@extend %title-median;
+	@extend	%title-thin;
+}
+
+.moleculeTitle-medium-medium {
+	@extend %title-median;
+	@extend	%title-medium;
+}
+
+.moleculeTitle-regular-small {
+	@extend %title-small;
+	@extend	%title-regular;
+}
+.moleculeTitle-black-small {
+	@extend %title-small;
+	@extend	%title-black;
+}
+
+.moleculeTitle-bold-small {
+	@extend %title-small;
+	@extend	%title-bold;
+}
+
+.moleculeTitle-light-small {
+	@extend %title-small;
+	@extend	%title-light;
+}
+
+.moleculeTitle-thin-small {
+	@extend %title-small;
+	@extend	%title-thin;
+}
+
+.moleculeTitle-medium-small {
+	@extend %title-small;
+	@extend	%title-medium;
+}

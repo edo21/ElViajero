@@ -1,0 +1,95 @@
+.organisms-comments-style1 {
+	.new-comment {
+		margin-top: 15px;
+		margin-bottom: 15px;
+		padding-bottom: 55px;
+		padding-top: 20px;
+		padding-left: 15px;
+		padding-right: 15px;
+		.image-person {
+			width: 40px;
+			height: 40px;
+			border-radius: $atom-borderRadius-circle;
+			display: inline-block;
+			vertical-align: middle;
+		}
+		.input {
+			width: calc(100% - 45px);
+			display: inline-block;
+		}
+		.btn {
+			margin-top: 10px;
+			&:nth-child(3) {
+				margin-left: 15px;
+			}
+		}
+	}
+
+	.like-dislike {
+		margin-left: 40px;
+		vertical-align: text-bottom;
+		a {
+			&:nth-child(2) {
+				svg {
+					transform: rotate(180deg);
+					margin-bottom: -25px;
+				}
+
+			}
+		}
+		.active-like {
+			svg {
+				.path {
+					fill: $atom-colorSecundary!important;
+				}					
+			}
+		}
+	}
+	.comments {
+		.comment {
+			margin-bottom: 30px;
+			padding-bottom: 30px;		
+			.image-person {
+				width: 40px;
+				height: 40px;
+				border-radius: $atom-borderRadius-circle;
+				display: inline-block;
+				vertical-align: top;
+			}
+			.comment-text {
+				width: calc(100% - 45px);
+				display: inline-block;
+				.title {
+					margin-bottom: 5px;
+				}
+			}
+			.show-comments {
+				.svg {
+					width: 15px;
+					height: auto;
+					margin-left: 5px;
+				}
+			}
+		}
+	}
+	.answer-comments {
+		margin: 20px;
+		.card {
+			padding: 0;
+			border: none;
+			.new-comment {
+				padding-bottom: 20px;
+				margin: 0;
+				.input{
+					width: calc(100% - 35px);
+				}
+				.image-person {
+					width: 30px;
+					height: 30px;
+				}
+				
+			}
+
+		}
+	}
+}

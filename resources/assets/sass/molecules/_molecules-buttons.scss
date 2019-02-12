@@ -1,0 +1,81 @@
+/*
+|--------------------------------------------------------------------------
+| Buttons
+|--------------------------------------------------------------------------
+*/
+%text-buttonFont-family {
+	font-family: $atom-typoSecundary-light;
+}
+%text-buttonBig {
+	letter-spacing: 0.8px;
+	font-size: $atom-fontSize-slarge;
+}
+
+%text-buttonMedian {
+	letter-spacing: 0.5px;
+	font-size: $atom-fontSize;
+}
+
+%text-buttonSmall {
+	letter-spacing: 0.3px;
+	font-size: $atom-fontSize-xsmall;
+}
+
+%padding-buttonSmall {
+	padding: $atom-paddingButton-small;
+}
+
+%padding-buttonMedium {
+	padding: $atom-paddingButton-medium;
+}
+
+%padding-buttonBig {
+	padding: $atom-paddingButton-big;
+}
+
+%borderRadius-buttonSmall {
+	border-radius: $atom-borderRadius-btnSmall;
+}
+
+%borderRadius-buttonMedium {
+	border-radius: $atom-borderRadius-btnMedium;
+}
+
+%borderRadius-buttonBig {
+	border-radius: $atom-borderRadius-btnBig;
+}
+
+.moleculeButton-big {
+	@extend %text-buttonBig;
+	@extend %padding-buttonBig;
+	@extend	%borderRadius-buttonBig;
+	@extend %text-buttonFont-family;
+}
+
+.moleculeButton-medium {
+	@extend %text-buttonMedian;
+	@extend %padding-buttonMedium;
+	@extend	%borderRadius-buttonMedium;
+	@extend %text-buttonFont-family;
+}
+
+.moleculeButton-small {
+	@extend %text-buttonSmall;
+	@extend %padding-buttonSmall;
+	@extend	%borderRadius-buttonSmall;
+	@extend %text-buttonFont-family;
+	line-height: 13.4px;
+}
+
+.moleculeButton-small-icon {
+	@extend %text-buttonSmall;
+	@extend %padding-buttonSmall;
+	@extend	%borderRadius-buttonSmall;
+	@extend %text-buttonFont-family;
+	line-height: 13.4px;
+	padding-left: 45px;
+	.icon {
+		margin-left: -30px;
+		margin-right: 10px;
+	}
+}

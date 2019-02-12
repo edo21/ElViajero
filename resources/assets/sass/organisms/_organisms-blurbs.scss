@@ -1,0 +1,421 @@
+.organisms-blurbs-style1 {
+	.blurb-special ,.blurb {
+		.text {
+			.title-travel {
+				font-family: $atom-typoThird;
+			}
+		}		
+	} 
+	.blurb-special {
+		height: 470px;
+		border-top: none;
+		.text {
+			position: absolute;
+			bottom: 0;
+			right: 0;
+			padding: 20px 30px;
+			text-align: right;
+		}
+		.content-title {
+			position: absolute;
+			top: 160px;
+			width: 50%;
+			z-index: 2;
+			padding: 0 35px;
+			.title {
+				font-size: 33px;
+				text-transform: uppercase;
+				@media screen and (max-width: $atom-screen-sm-min) {
+					font-size: 20px;
+				}
+			}
+			p {
+				color: #7fbbce;
+				margin-top: 5px;
+			}
+			@media screen and (max-width: $atom-screen-sm-min) {
+				width: 100%;
+			}
+			@media screen and (max-width: $atom-screen-xs-min) {
+				position: relative;
+				padding: 0 10px;
+			}		
+		}
+	}
+
+	.blurb {
+		height: 200px;
+		.text {
+			position: absolute;
+			bottom: 0;
+			width: 100%;
+			padding: 20px 10px;
+			text-align: right;
+		}
+	}
+	.information-blurb {
+		padding: 40px;
+		@media screen and (max-width: $atom-screen-sm-min) {
+			height: 50px;
+		}
+		@media screen and (max-width: $atom-screen-xs-min) {
+			padding: 20px;
+			height: auto;
+			.text-information {
+				font-size: $atom-fontSize;
+			}
+		}
+	}
+	.blurbCarousel {
+		margin-right: -15px;
+		margin-left: -15px;
+		.carousel-control-prev {
+			right: 50px;
+			left: auto;
+		}
+
+		.carousel-control {
+			height: 50px;
+			padding-top: 8px;
+		}
+
+		.icon-control {
+			width: 30px;
+		}
+	}
+}
+
+.organisms-blurbs-style2 {
+	.characteristics {
+		margin-bottom: 20px;
+		.image {
+			width: 60px;
+			height: auto;
+			display: inline-block;
+		}
+
+		p {
+			display: inline-block;
+			width: calc(100% - 69px);
+			vertical-align: middle;
+			padding-left: 15px;
+		}
+	}
+
+	.blurb-image {
+		height: 450px;
+		padding-top: 50px;
+		img {
+			width: 35%;
+			float: left;
+		}
+
+		.text {
+			width: 65%;
+			float: left;
+			padding: 50px 30px 0 30px;
+		}
+	}
+
+	.blurb-text {
+		height: 450px;
+		padding-top: 50px;
+	}
+}
+
+.organisms-blurbs-style3 {
+	.blurb-image {
+		height: 400px;
+	}
+	.blurb-text {
+		padding-top: 70px;
+	}
+	.content-text {
+		.text {
+			padding: 20px;
+		}
+		&:nth-child(1) {
+			.text {
+				background: rgba($atom-backgroundSecundary, 0.1);
+			}
+			
+		}
+		&:nth-child(2) {
+			.text {
+				background: rgba($atom-backgroundThird, 0.1);
+			}
+		}
+	}
+}
+.organisms-blurbs-style4 {
+	padding: 150px 0;
+	@media screen and (max-width: $atom-screen-sm-min) {
+		padding: 50px 0;
+	}
+	@media screen and (max-width: $atom-screen-xs-min) {
+		padding: 0;
+		margin-top: 50px;
+	}
+	position: relative;
+	overflow: hidden;
+	.backgroundDesing {
+		height: 800px;
+		border-radius: 0 85% / 0 100%;
+		background: rgba(#F5F5F5, 0.7);
+		position: absolute;
+		top: 0;
+		left: -50%;
+		width: 200%;
+	}
+	.image {
+		position: relative;
+		@media screen and (max-width: $atom-screen-sm-min) {
+			display: none;
+		}
+	}
+	.contentBlurb-text {
+		padding-right: 70px;
+		padding-left: 70px;
+		@media screen and (max-width: $atom-screen-sm-min) {
+			padding: 0 15px;
+		}
+		>.title {
+			font-family: $atom-typoThird;
+			font-size: 30px;
+			margin-left: -200px;
+			padding-left: 200px;
+			padding-bottom: 3px;
+			border-bottom: solid 2px $atom-colorSecundary;
+			margin-right: 90%;
+			color: rgba(0,0,0,0.7);
+			@media screen and (max-width: $atom-screen-sm-min) {
+				margin-left: 0;
+				padding-left: 0;
+				border-bottom: none;
+			}
+		}
+		.extract {
+			margin-top: 20px;
+		}
+		.blurb {
+			margin-top: 50px;
+			margin-bottom: 50px;
+			.contenText {
+				margin-bottom: 30px;
+				.image {
+					width: 40px;
+					margin-right: 20px
+				}
+				.text {
+					width: calc(100% - 65px);
+					display: inline-block;
+					vertical-align: top;
+					.title {
+						margin-bottom: 3px;
+						font-family: $atom-typoThird;
+						color: #7892aa;
+					}					
+				}
+
+				&:nth-child(1) {
+					margin-top: 20px;
+				}
+			}
+		}		
+	}
+}
+.organisms-blurbs-style5 {
+	padding: 150px 15px;
+	@media screen and (max-width: $atom-screen-sm-min) {
+		padding: 50px 15px;
+	}
+	.imageContent {
+		margin-left: -55px;
+		margin-top: -130px;
+		@media screen and (max-width: $atom-screen-sm-min) {
+			margin-left: 0;
+			margin-top: 0;
+		}
+		@media screen and (max-width: $atom-screen-xs-min) {
+			margin-top: 0;
+			height: 300px;
+		}
+		.text {
+			position: absolute;
+			top: 500px;
+			left: 55px;
+			width: calc(100% - 55px);
+			padding: 60px;
+			@media screen and (max-width: $atom-screen-sm-min) {
+				position: relative;
+				width: 100%;
+				left: 0;
+				top: 0;
+			}
+			@media screen and (max-width: $atom-screen-xs-min) {
+				padding: 15px;
+				margin-top: 45px;
+			}
+			.title {
+				font-family: $atom-typoThird;
+				color: rgba(0,0,0,.7);
+				margin-bottom: 10px;
+				@media screen and (max-width: $atom-screen-sm-min) {
+					color: white;
+					text-shadow: $atom-textShadow-primary;
+				}
+			}
+			.information {
+				@media screen and (max-width: $atom-screen-sm-min) {
+					color: white;
+					text-shadow: $atom-textShadow-primary;
+				}
+			}
+		}
+	}
+	.content-images {
+		background: #F5F5F5;
+		padding: 85px;
+		@media screen and (max-width: $atom-screen-sm-min) {
+			padding: 50px;
+		}
+		@media screen and (max-width: $atom-screen-xs-min) {
+			padding: 15px;
+		}
+		.header {
+			margin-bottom: 30px;
+			>.title {
+				font-family: $atom-typoThird;
+				font-size: 30px;
+				margin-right: -200px;
+				padding-right: 300px;
+				padding-bottom: 3px;
+				border-bottom: solid 2px $atom-colorSecundary;
+				margin-left: 69%;
+				color: rgba(0,0,0,0.7);
+				text-align: right;
+				z-index: 1;
+				position: relative;
+				@media screen and (max-width: $atom-screen-sm-min) {
+					margin-right: 0;
+					padding-right: 0;
+					border-bottom: none;
+					margin-left: 0;
+				}
+			}
+		}
+		.image {
+			border: solid 5px #F5F5F5;
+			height: 40.3333%;
+			@media screen and (max-width: $atom-screen-xs-min) {
+				height: 140px;
+			}
+		}
+		.row {
+			width: initial;
+			@media screen and (max-width: $atom-screen-xs-min) {
+				height: auto;
+			}
+		}
+	}
+	.btn {
+		@media screen and (max-width: $atom-screen-xs-min) {
+			margin-left: auto;
+			margin-right: auto;
+			margin-top: 15px;
+		}
+	}
+}
+.organisms-blurbs-style6 {
+	margin-bottom: 150px;
+	@media screen and (max-width: $atom-screen-sm-min) {
+		margin-bottom: 0;
+	}
+	.image {
+		@media screen and (max-width: $atom-screen-sm-min) {
+			margin-bottom: 30px;
+		}
+		position: relative;
+		.contenText {
+			position: absolute;
+			bottom: 0;
+			width: 100%;
+			padding: 20px 30px;
+			text-align: right;
+		}
+	}
+	.text {
+		background: #F5F5F5;
+		padding: 25px;
+		position: relative;
+		.title {
+			font-family: $atom-typoThird;
+		}
+		.information {
+			margin-top: 15px;
+		}
+		.btn {
+			position: absolute;
+			bottom: 25px;
+			right: 25px;
+		}
+	}
+}
+.organisms-blurbs-style7 {
+	overflow: hidden;
+	position: relative;
+	@media screen and (max-width: $atom-screen-sm-min) {
+		margin-top: 130px;
+	}
+	@media screen and (max-width: $atom-screen-sm-min) {
+		margin-top: 20px;
+	}
+	.groupImage {
+		.image-two {
+			margin-top: 30px;
+			@media screen and (max-width: $atom-screen-sm-min) {
+				display: none;
+			}
+		}
+		.image-three {
+			margin-top: 130px;
+			@media screen and (max-width: $atom-screen-sm-min) {
+				display: none;
+			}
+		}
+		.image {
+			position: relative;
+		}
+	}
+	.groupImage-1 {
+		@media screen and (max-width: $atom-screen-xs-min) {
+			margin-top: 120px;
+		}
+	}
+	.text {
+		margin-top: 120px;
+		padding: 0 50px;
+		@media screen and (max-width: $atom-screen-sm-min) {
+			margin-bottom: 50px;
+			margin-top: 30px;
+			padding: 0 15px;
+		}
+		@media screen and (max-width: $atom-screen-xs-min) {
+			padding: 0 30px;
+		}
+		.title {
+			font-family: $atom-typoThird;
+			color: rgba(0,0,0,0.7);
+			margin-bottom: 10px;			
+		}
+	}
+	.backgroundDesing {
+		height: 540px;
+		border-radius: 0 85% / 0 100%;
+		background: rgba(245,245,245,0.7);
+		position: absolute;
+		top: 0;
+		left: -12%;
+		width: 200%;
+	}
+}
